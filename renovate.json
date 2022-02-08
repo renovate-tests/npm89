@@ -1,3 +1,7 @@
 {
-  "rangeStrategy": "update-lockfile"
+  "rangeStrategy": "update-lockfile",
+  "packageRules": [{
+    "matchPackageNames": ["left-pad"],
+    "allowedVersions": "1.1.0"
+  }]
 }
